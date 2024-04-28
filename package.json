@@ -1,0 +1,24 @@
+{
+  "name": "blog-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "14.x"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node --experimental-modules --es-module-specifier-resolution=node app.js",
+    "build": "npm run build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.12.7",
+    "nodemon": "^2.0.22"
+  }
+}
